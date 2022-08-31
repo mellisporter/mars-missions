@@ -13,3 +13,9 @@ app.get("/", function (req, res){
     })
 })
 
+app.get("/:missionIndex" , (req, res)=>{
+    res.render("mars_show.ejs", {
+        mission: marsMissions[req.params.missionIndex]
+    })
+})
+
