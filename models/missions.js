@@ -36,3 +36,5 @@ const marsMissions = [
       img: "https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA18891_hires.jpg",
     },
   ]
+
+  module.exports = marsMissions;
